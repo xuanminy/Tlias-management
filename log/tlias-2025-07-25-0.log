@@ -1,0 +1,98 @@
+2025-07-25 20:03:25.791 [main] INFO  c.itxuan.TliasManagementApplication - Starting TliasManagementApplication using Java 21.0.7 with PID 7796 (E:\project\Actual-develop\Tlias-educate-management\web-ai-Tlias\Tlias-management\target\classes started by Administrator in E:\project\Actual-develop\Tlias-educate-management\web-ai-Tlias)
+2025-07-25 20:03:25.793 [main] INFO  c.itxuan.TliasManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-25 20:03:26.917 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-25 20:03:26.935 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-25 20:03:26.937 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-25 20:03:26.937 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-25 20:03:26.988 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-25 20:03:26.989 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1160 ms
+2025-07-25 20:03:27.421 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-07-25 20:03:27.736 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-25 20:03:27.748 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-25 20:03:27.753 [main] INFO  c.itxuan.TliasManagementApplication - Started TliasManagementApplication in 2.268 seconds (process running for 3.295)
+2025-07-25 20:03:48.956 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-25 20:03:48.960 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-25 20:04:09.036 [main] INFO  c.itxuan.TliasManagementApplication - Starting TliasManagementApplication using Java 21.0.7 with PID 12004 (E:\project\Actual-develop\Tlias-educate-management\web-ai-Tlias\Tlias-management\target\classes started by Administrator in E:\project\Actual-develop\Tlias-educate-management\web-ai-Tlias)
+2025-07-25 20:04:09.038 [main] INFO  c.itxuan.TliasManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-25 20:04:09.883 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-25 20:04:09.893 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-25 20:04:09.894 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-25 20:04:09.894 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-25 20:04:09.929 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-25 20:04:09.930 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 863 ms
+2025-07-25 20:04:10.245 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-07-25 20:04:10.522 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-25 20:04:10.536 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-25 20:04:10.542 [main] INFO  c.itxuan.TliasManagementApplication - Started TliasManagementApplication in 1.787 seconds (process running for 2.393)
+2025-07-25 20:04:31.527 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-25 20:04:31.527 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-25 20:04:31.527 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-07-25 20:04:31.534 [http-nio-8080-exec-1] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/depts
+2025-07-25 20:04:31.536 [http-nio-8080-exec-1] INFO  com.itxuan.filter.TokenFilter - Token不存在
+2025-07-25 20:04:43.621 [http-nio-8080-exec-2] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/login
+2025-07-25 20:04:43.621 [http-nio-8080-exec-2] INFO  com.itxuan.filter.TokenFilter - 登录请求，不需要Token验证
+2025-07-25 20:04:43.724 [http-nio-8080-exec-2] INFO  c.itxuan.controller.LoginController - 登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-07-25 20:04:43.751 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-25 20:04:44.127 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ab424e0
+2025-07-25 20:04:44.128 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-25 20:04:44.193 [http-nio-8080-exec-2] INFO  c.i.service.Impl.LoginServiceImpl - 登录：Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-07-25 20:04:46.088 [http-nio-8080-exec-3] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:04:47.671 [http-nio-8080-exec-4] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:04:48.722 [http-nio-8080-exec-6] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/report/studentCountData
+2025-07-25 20:04:48.722 [http-nio-8080-exec-5] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/report/studentDegreeData
+2025-07-25 20:04:48.723 [http-nio-8080-exec-5] INFO  c.itxuan.controller.ReportController - 统计班级人数
+2025-07-25 20:04:48.723 [http-nio-8080-exec-6] INFO  c.itxuan.controller.ReportController - 统计班级人数
+2025-07-25 20:04:49.980 [http-nio-8080-exec-7] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/report/empJobData
+2025-07-25 20:04:49.980 [http-nio-8080-exec-8] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/report/empGenderData
+2025-07-25 20:04:49.981 [http-nio-8080-exec-8] INFO  c.itxuan.controller.ReportController - 统计员工性别人数
+2025-07-25 20:04:49.981 [http-nio-8080-exec-7] INFO  c.itxuan.controller.ReportController - 统计员工职位人数
+2025-07-25 20:04:52.437 [http-nio-8080-exec-9] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/depts
+2025-07-25 20:04:53.312 [http-nio-8080-exec-1] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/depts
+2025-07-25 20:04:53.312 [http-nio-8080-exec-10] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/emps
+2025-07-25 20:04:53.320 [http-nio-8080-exec-10] INFO  com.itxuan.controller.EmpController - 分页查询，参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2025-07-25 20:04:57.768 [http-nio-8080-exec-3] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/clazzs/list
+2025-07-25 20:04:57.768 [http-nio-8080-exec-2] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/students
+2025-07-25 20:04:57.770 [http-nio-8080-exec-3] INFO  c.itxuan.controller.ClazzController - 查询班级所有
+2025-07-25 20:04:57.772 [http-nio-8080-exec-2] INFO  c.i.controller.StudentController - 分页查询
+2025-07-25 20:05:06.468 [http-nio-8080-exec-4] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/students
+2025-07-25 20:05:06.469 [http-nio-8080-exec-4] INFO  c.i.controller.StudentController - 分页查询
+2025-07-25 20:05:13.928 [http-nio-8080-exec-5] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/students/violation/17/12
+2025-07-25 20:05:13.931 [http-nio-8080-exec-5] INFO  c.i.controller.StudentController - 学生17违纪，参数：12
+2025-07-25 20:05:13.931 [http-nio-8080-exec-5] DEBUG o.s.j.support.JdbcTransactionManager - Creating new transaction with name [com.itxuan.service.Impl.StudentServiceImpl.violation]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-07-25 20:05:13.936 [http-nio-8080-exec-5] DEBUG o.s.j.support.JdbcTransactionManager - Acquired Connection [HikariProxyConnection@2106679037 wrapping com.mysql.cj.jdbc.ConnectionImpl@13811e35] for JDBC transaction
+2025-07-25 20:05:13.937 [http-nio-8080-exec-5] DEBUG o.s.j.support.JdbcTransactionManager - Switching JDBC Connection [HikariProxyConnection@2106679037 wrapping com.mysql.cj.jdbc.ConnectionImpl@13811e35] to manual commit
+2025-07-25 20:05:13.959 [http-nio-8080-exec-5] INFO  com.itxuan.aop.Log - OperateLog:OperateLog(id=null, operateEmpId=2, operateTime=2025-07-25T20:05:13.958644300, className=com.itxuan.service.Impl.StudentServiceImpl, methodName=violation, methodParams=[Violation(id=17, score=12)], returnValue=void, costTime=15, operateEmpName=null)
+2025-07-25 20:05:13.965 [http-nio-8080-exec-5] DEBUG o.s.j.support.JdbcTransactionManager - Initiating transaction commit
+2025-07-25 20:05:13.965 [http-nio-8080-exec-5] DEBUG o.s.j.support.JdbcTransactionManager - Committing JDBC transaction on Connection [HikariProxyConnection@2106679037 wrapping com.mysql.cj.jdbc.ConnectionImpl@13811e35]
+2025-07-25 20:05:13.968 [http-nio-8080-exec-5] DEBUG o.s.j.support.JdbcTransactionManager - Releasing JDBC Connection [HikariProxyConnection@2106679037 wrapping com.mysql.cj.jdbc.ConnectionImpl@13811e35] after transaction
+2025-07-25 20:05:13.975 [http-nio-8080-exec-6] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/students
+2025-07-25 20:05:13.975 [http-nio-8080-exec-6] INFO  c.i.controller.StudentController - 分页查询
+2025-07-25 20:05:16.265 [http-nio-8080-exec-8] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:05:19.941 [http-nio-8080-exec-7] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:05:22.304 [http-nio-8080-exec-9] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:05:32.331 [http-nio-8080-exec-1] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:05:34.823 [http-nio-8080-exec-10] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:05:36.641 [http-nio-8080-exec-3] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:05:37.816 [http-nio-8080-exec-2] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:05:45.396 [http-nio-8080-exec-4] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:05:48.213 [http-nio-8080-exec-5] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:05:50.353 [http-nio-8080-exec-8] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/depts
+2025-07-25 20:05:50.353 [http-nio-8080-exec-6] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/emps
+2025-07-25 20:05:50.354 [http-nio-8080-exec-6] INFO  com.itxuan.controller.EmpController - 分页查询，参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2025-07-25 20:05:56.071 [http-nio-8080-exec-7] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/emps
+2025-07-25 20:05:56.073 [http-nio-8080-exec-7] INFO  com.itxuan.controller.EmpController - 批量删除员工，参数：[40]
+2025-07-25 20:05:56.073 [http-nio-8080-exec-7] DEBUG o.s.j.support.JdbcTransactionManager - Creating new transaction with name [com.itxuan.service.Impl.EmpServiceImpl.delete]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-07-25 20:05:56.073 [http-nio-8080-exec-7] DEBUG o.s.j.support.JdbcTransactionManager - Acquired Connection [HikariProxyConnection@856108585 wrapping com.mysql.cj.jdbc.ConnectionImpl@13811e35] for JDBC transaction
+2025-07-25 20:05:56.073 [http-nio-8080-exec-7] DEBUG o.s.j.support.JdbcTransactionManager - Switching JDBC Connection [HikariProxyConnection@856108585 wrapping com.mysql.cj.jdbc.ConnectionImpl@13811e35] to manual commit
+2025-07-25 20:05:56.079 [http-nio-8080-exec-7] INFO  com.itxuan.aop.Log - OperateLog:OperateLog(id=null, operateEmpId=2, operateTime=2025-07-25T20:05:56.079173400, className=com.itxuan.service.Impl.EmpServiceImpl, methodName=delete, methodParams=[[40]], returnValue=void, costTime=4, operateEmpName=null)
+2025-07-25 20:05:56.082 [http-nio-8080-exec-7] DEBUG o.s.j.support.JdbcTransactionManager - Initiating transaction commit
+2025-07-25 20:05:56.082 [http-nio-8080-exec-7] DEBUG o.s.j.support.JdbcTransactionManager - Committing JDBC transaction on Connection [HikariProxyConnection@856108585 wrapping com.mysql.cj.jdbc.ConnectionImpl@13811e35]
+2025-07-25 20:05:56.088 [http-nio-8080-exec-7] DEBUG o.s.j.support.JdbcTransactionManager - Releasing JDBC Connection [HikariProxyConnection@856108585 wrapping com.mysql.cj.jdbc.ConnectionImpl@13811e35] after transaction
+2025-07-25 20:05:56.093 [http-nio-8080-exec-9] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/emps
+2025-07-25 20:05:56.096 [http-nio-8080-exec-9] INFO  com.itxuan.controller.EmpController - 分页查询，参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2025-07-25 20:05:57.142 [http-nio-8080-exec-1] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:05:58.580 [http-nio-8080-exec-10] INFO  com.itxuan.filter.TokenFilter - 拦截请求：/log/page
+2025-07-25 20:06:06.715 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-25 20:06:06.720 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-25 20:06:06.720 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-25 20:06:06.720 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
