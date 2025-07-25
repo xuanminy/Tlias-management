@@ -11,6 +11,11 @@
           <entry name="$PROJECT_DIR$/../../../../develop_tools/apache-maven-3.9.4/maven_repo/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
       </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21" />
   </component>

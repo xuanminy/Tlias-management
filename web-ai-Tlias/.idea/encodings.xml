@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/Tlias-management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlias-poji/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlias-poji/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlias-utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlias-utils/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Tlias-management/pom.xml" />
+        <option value="$PROJECT_DIR$/tlias-poji/pom.xml" />
+        <option value="$PROJECT_DIR$/tlias-utils/pom.xml" />
       </list>
     </option>
   </component>
